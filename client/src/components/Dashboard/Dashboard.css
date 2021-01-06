@@ -1,0 +1,13 @@
+.wrapper{
+    background: #30353E;
+    min-height: calc(100vh - 56px);
+    color:#fff;
+}
+.btn-grad {
+    
+    padding: 20px;
+    background: #EC3C60;
+    border-radius: 3px;
+    margin: 50px auto;
+    width: 200px;
+}
