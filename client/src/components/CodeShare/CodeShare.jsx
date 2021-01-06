@@ -3,7 +3,7 @@ import "./codeshare.css";
 import { Modal, Button } from "react-bootstrap";
 import CodeEditor from '../CodeEditor/CodeEditor'
 import "./styles.css";
-
+import "./prism.css";
 
 class CodeShare extends React.Component {
   constructor(props) {

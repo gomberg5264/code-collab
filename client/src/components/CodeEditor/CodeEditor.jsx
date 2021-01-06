@@ -4,7 +4,7 @@ import { DebounceInput } from "react-debounce-input";
 import DataCallApi from "../../utils/api.js";
 import { PUSHER_CLUSTER, PUSHER_KEY } from "../../utils/constants";
 import Pusher from "pusher-js";
-import "./prism.css";
+
 
 class CodeEditor extends Component {
   constructor(props) {
@@ -50,6 +50,12 @@ class CodeEditor extends Component {
         content: html,
       });
     });
+  }
+
+  componentDidUpdate(){
+    if(this.state.content){
+      Prism.highlightAll();
+    }
   }
 
   triggerChange = (event) => {
