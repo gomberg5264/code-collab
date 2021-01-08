@@ -1,0 +1,29 @@
+.pricing .card{
+    background: #1f2225;
+    font-size:15px
+}
+.plan-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.plan-price.month {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #ec3c60;
+}
+.plan-price.month sub{
+    bottom: 0;
+}
+.plan-cta .btn-grad {
+    padding: 10px;
+    border: 0px;
+    color: #fff;
+}
+.card.disabled {
+    background: rgba(255,255,255,0.1);
+    pointer-events: none;
+}
+.card.disabled > * {
+    opacity: 0.1;
+}

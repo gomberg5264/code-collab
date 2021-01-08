@@ -11,7 +11,29 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+a{
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+.code-navbar {
+  color: #fff !important;
+  text-align: center;
+  display: block;
+  width: 100%;
+  font-size: 30px;
+  padding: 20px 0px;
+  background: #1f2225;
+}
+.modal-content{
+  color: #000;
+}
+.pb50{
+  padding:50px 0px
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

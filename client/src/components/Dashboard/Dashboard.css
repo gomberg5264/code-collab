@@ -1,13 +1,19 @@
-.wrapper{
-    background: #30353E;
-    min-height: calc(100vh - 56px);
-    color:#fff;
+.wrapper {
+  background: #30353e;
+  min-height: calc(100vh - 56px);
+  color: #fff;
+}
+.hero-banner {
+  background: #1f2225;
+}
+.mb-10 {
+  margin-bottom: 30px;
 }
 .btn-grad {
-    
-    padding: 20px;
-    background: #EC3C60;
-    border-radius: 3px;
-    margin: 50px auto;
-    width: 200px;
+  font-size: 20px;
+  padding: 20px;
+  background: #ec3c60;
+  border-radius: 3px;
+  margin: 50px auto;
+  width: 200px;
 }

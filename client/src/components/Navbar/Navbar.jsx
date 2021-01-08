@@ -1,19 +1,12 @@
 import React from "react";
-import { Nav,Navbar } from 'react-bootstrap';
-
+import { Nav, Navbar } from "react-bootstrap";
 
 export default function NavbarComponent() {
   return (
-    <Navbar bg="dark" expand="lg">
-      <Navbar.Brand href="#home">CodeCollab</Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        {/* <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-        </Nav> */}
-        
-      </Navbar.Collapse>
-    </Navbar>
+    <>
+      <Navbar.Brand href="#home" className="code-navbar">
+        <i class="fa fa-code" aria-hidden="true"></i> <span>CodeCollab</span>
+      </Navbar.Brand>
+      </>
   );
 }
