@@ -9,11 +9,11 @@ const Environments = {
     port: 4000,
   },
   "itg": {
-    url: "https://code-collab-tool.herokuapp.com/",
+    url: "https://code-collab-tool.herokuapp.com",
     port: 5000,
   },
   "production": {
-    url: "https://code-collab-tool.herokuapp.com/",
+    url: "https://code-collab-tool.herokuapp.com",
     port: 5000,
   },
 };
