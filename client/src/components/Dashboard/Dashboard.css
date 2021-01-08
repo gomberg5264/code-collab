@@ -17,3 +17,20 @@
   margin: 50px auto;
   width: 200px;
 }
+.pair-image {
+  width: 400px;
+}
+.pair-image  img {
+  max-width: 100%;
+
+}
+.pair{
+  color: #1f2225;
+  background: #fff;
+}
+
+.text-pair {
+  position: relative;
+  top: 20%;
+  left: 10%;
+}

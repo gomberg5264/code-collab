@@ -5,8 +5,13 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
+  "keywords": [
+    "coding",
+    "interview",
+    "programming",
+  ],
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
@@ -19,7 +24,9 @@
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
-  "keywords": [],
-  "author": "",
+  "engines": {
+    "node": "10.16.0"
+  },
+  "author": "Rajdeep Chandra",
   "license": "ISC"
 }

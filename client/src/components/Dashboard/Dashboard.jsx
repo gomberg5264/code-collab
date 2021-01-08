@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import "./Dashboard.css";
 import Footer from "../Footer/Footer";
 import Pricing from "../Pricing/Pricing";
+import { Row, Col,Container } from "react-bootstrap";
+import { pairProgramming } from "../../assets/images";
 
 export default function Dashboard() {
   return (
@@ -50,7 +52,29 @@ export default function Dashboard() {
             </div>
           </div>
         </div>
-        <Pricing/>
+        <Pricing />
+        <div className="pair pb50">
+          <Container>
+          <Row>
+            <Col md="6">
+              <div className="text-pair">
+                <h1><b>LEARN, CODE</b></h1>
+                <h1><b>&amp; EXECUTE</b></h1>
+                <h5>Create your own mark showing your coding skills</h5>
+              </div>
+            </Col>
+            <Col md="6">
+              <div className="pair-image">
+                <img
+                  className="img-responsive"
+                  src={pairProgramming}
+                  alt="pair programming"
+                />
+              </div>
+            </Col>
+          </Row>
+          </Container>
+        </div>
       </div>
       <Footer />
     </div>
