@@ -10,7 +10,7 @@
   "keywords": [
     "coding",
     "interview",
-    "programming",
+    "programming"
   ],
   "dependencies": {
     "body-parser": "^1.18.3",
