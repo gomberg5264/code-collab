@@ -59,9 +59,9 @@ export default function Dashboard() {
           <Row>
             <Col md="6">
               <div className="text-pair">
-                <h1><b>LEARN, CODE</b></h1>
-                <h1><b>&amp; EXECUTE</b></h1>
-                <h5>Create your own mark showing your coding skills</h5>
+                <h1><b>ASSESS, CODE</b></h1>
+                <h1><b>&amp; HIRE</b></h1>
+                <h5>Assess and hire the right candidate for the job</h5>
               </div>
             </Col>
             <Col md="6">
