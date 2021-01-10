@@ -1,6 +1,7 @@
 .pricing .card{
     background: #1f2225;
-    font-size:15px
+    font-size:15px;
+    height: 400px;
 }
 .plan-name {
     font-size: 30px;

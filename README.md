@@ -1,10 +1,13 @@
 <p align="center">
-  <img src="https://github.com/Rajdeepc/code-collab/blob/master/github/code.png?raw=true" width="600">
+  <img src="https://github.com/Rajdeepc/code-collab/blob/master/github/logo.png?raw=true" width="600">
 </p><br>
 
 <p align="center"><a href="https://github.com/Rajdeepc/code-collab/blob/master/LICENSE.md"><img alt="APM" src="https://img.shields.io/apm/l/react"></a> <a href="https://github.com/Rajdeepc/code-collab/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/Rajdeepc/code-collab"></a> <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/Rajdeepc/code-collab">
 </p>
 
+<p align="center">
+  <img src="https://github.com/Rajdeepc/code-collab/blob/master/github/code.png?raw=true" width="600">
+</p><br>
 
 
 <p align="center">

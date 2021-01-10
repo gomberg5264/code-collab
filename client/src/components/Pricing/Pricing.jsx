@@ -30,13 +30,13 @@ export default function Pricing() {
                     </p>
                   </div>
                   <div class="plan-description specs">
-                    30 mins of Pair Programming Time
-                    <br /> 1+ User per session
-                    <br /> Real Time Code changes highlighter
+                    * 30 mins of Pair Programming Time
+                    <br /> * 1+ User per session
+                    <br /> * Real Time Code changes highlighter
                   </div>
-                  <div class="plan-cta">
-                    <button className="btn-grad" onClick={gotoPateron}>Get Started</button>
-                  </div>
+                  {/* <div class="plan-cta">
+                    <button className="btn-grad" onClick={gotoPateron}>Buy</button>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -55,12 +55,12 @@ export default function Pricing() {
                     </p>
                   </div>
                   <div class="plan-description specs">
-                    5,000 Branded Links
-                    <br /> 3+ User Seats
-                    <br /> 5+ Custom Domains{" "}
+                  * Unlimited Pair Programming Time
+                    <br /> 5+ User Seats
+                    <br /> Code Highlighter and Auto Corrector{" "}
                   </div>
                   <div class="plan-cta">
-                    <button className="btn-grad" onClick={gotoPateron}>Get Started</button>
+                    <button className="btn-grad" onClick={gotoPateron}>Buy</button>
                   </div>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function Pricing() {
                     <br /> 10+ Custom Domains{" "}
                   </div>
                   <div class="plan-cta">
-                    <button className="btn-grad" onClick={gotoPateron}>Get Started</button>
+                    <button className="btn-grad" onClick={gotoPateron}>Buy</button>
                   </div>
                 </div>
               </div>

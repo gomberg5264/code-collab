@@ -15,9 +15,10 @@ export default function Dashboard() {
       <div className="wrapper">
         <div className="hero-banner pb50 text-center">
           <h2>
-            Share Code in real time<br></br>
+            Share code in real time<br></br>
             with other developers
           </h2>
+          <i>Pair Programming by choice</i>
           <div className="btn-grad">
             <Link to={`/sharecode/${getUniqueId()}`}>Start Free Trial</Link>
           </div>
