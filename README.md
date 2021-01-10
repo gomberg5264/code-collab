@@ -6,16 +6,16 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/Rajdeepc/code-collab/blob/master/github/code.png?raw=true" width="600">
-</p><br>
-
-
-<p align="center">
   <sub>Developed with ❤︎ by
     <a href="https://github.com/Rajdeepc">Rajdeep Chandra</a> and
     <a href="https://github.com/Rajdeepc/code-collab/graphs/contributors">contributors</a>
   </sub>
 </p>
+
+<p align="center">
+  <img src="https://github.com/Rajdeepc/code-collab/blob/master/github/code.png?raw=true" width="600">
+</p><br>
+
 
 
  See Live [https://code-collab-tool.herokuapp.com/](https://code-collab-tool.herokuapp.com/)
